@@ -12,7 +12,6 @@ To facilitate access to the dataset, we provide two download options:
 - **Google Drive Link**: [Google Drive](https://drive.google.com/file/d/1BSfYe4uLqaeKZzg5SzKNpu34UAzx3Dqn/view?usp=drive_link)
 - **Hugging Face Link**: [Hugging Face](https://huggingface.co/datasets/Weichenfeng/LiDARDustX)
 
-**Note**: If the links do not work, please check the URL for validity or try accessing them later due to potential network issues.
 
 ## Dataset Structure
 
