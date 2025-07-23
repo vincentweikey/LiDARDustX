@@ -52,13 +52,37 @@ Each LiDAR data sequence is stored in a separate folder, with each frame contain
 
 The `.label` file provides per-point semantic segmentation, with each point assigned a category ID as follows:
 
-| Class     | Label ID | Description                             |
-|-----------|----------|-----------------------------------------|
-| Ignore    | 0        | Ignore                                  |
-| Ground    | 1        | Ground                                  |
-| Dust      | 2        | Dust particles                          |
-| Obstacle  | 3        | Obstacles (e.g., vehicles, pedestrians) |
-| Wall      | 4        | Structures (e.g., walls, barriers)      |
+| Original ID | Fine-grained Class  | 
+| ----------: | ------------------- | 
+|           0 | Ignore              |            
+|           1 | Ground (with rut)   |           
+|           2 | Wall                |        
+|           3 | ArtificialWall      |       
+|           4 | Mountain            |            
+|           5 | Tree                |        
+|           6 | Grass               |           
+|           7 | VerticalObstacle    |       
+|           8 | StaticObstacle      |           
+|           9 | Dust                |           
+|          10 | Noise               |          
+|          11 | Rainwater           |             
+|          12 | Car                 |             
+|          13 | Truck               |             
+|          14 | Engineering Vehicle |            
+|          15 | Bus                 |             
+|          16 | Pickup              |            
+|          17 | Pedestrian          |             
+|          18 | Rider               |             
+|          19 | Tricycle            |             
+|          20 | Bicycle             |            
+|          21 | Construction        |          
+|          22 | Trailer             |         
+|          23 | Wire                |            
+|          24 | Animal              |            
+|          25 | Unknown             |          
+|          26 | Stone               |           
+|          27 | Mound               |           
+|          28 | Panel               | 
 
 ### Parsing `.label` Files in Python
 
