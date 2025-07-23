@@ -58,7 +58,7 @@ The `.label` file provides per-point semantic segmentation, with each point assi
 | Ground    | 1        | Ground                                  |
 | Dust      | 2        | Dust particles                          |
 | Obstacle  | 3        | Obstacles (e.g., vehicles, pedestrians) |
-| Wall      | 3        | Structures (e.g., walls, barriers)      |
+| Wall      | 4        | Structures (e.g., walls, barriers)      |
 
 ### Parsing `.label` Files in Python
 
