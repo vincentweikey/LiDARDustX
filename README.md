@@ -52,12 +52,13 @@ Each LiDAR data sequence is stored in a separate folder, with each frame contain
 
 The `.label` file provides per-point semantic segmentation, with each point assigned a category ID as follows:
 
-| Class     | Label ID | Description                          |
-|-----------|----------|--------------------------------------|
-| Ground    | 0        | Ground                               |
-| Dust      | 1        | Dust particles                       |
-| Obstacle  | 2        | Obstacles (e.g., vehicles, pedestrians) |
-| Wall      | 3        | Structures (e.g., walls, barriers)   |
+| Class     | Label ID | Description                             |
+|-----------|----------|-----------------------------------------|
+| Ignore    | 0        | Ignore                                  |
+| Ground    | 1        | Ground                                  |
+| Dust      | 2        | Dust particles                          |
+| Obstacle  | 3        | Obstacles (e.g., vehicles, pedestrians) |
+| Wall      | 3        | Structures (e.g., walls, barriers)      |
 
 ### Parsing `.label` Files in Python
 
