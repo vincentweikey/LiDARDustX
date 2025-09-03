@@ -115,7 +115,8 @@ labels = load_label(label_file)
 
 For more details and benchmark results, please refer to the related paper:
 
-- **Paper**: Chenfeng Wei, Qi Wu, Si Zuo, et al. "LiDARDustX: A LiDAR Dataset for Dusty Unstructured Road Environments." *ICRA 2025*.
+- **Paper**: LiDARDustX: A LiDAR Dataset for Dusty Unstructured Road Environments.
 - [LiDARDustX](https://arxiv.org/abs/2505.21914)
+- C. Wei et al., "LiDARDustX: A LiDAR Dataset for Dusty Unstructured Road Environments," 2025 IEEE International Conference on Robotics and Automation (ICRA), Atlanta, GA, USA, 2025, pp. 12703-12709, doi: 10.1109/ICRA55743.2025.11127917.
 
 We hope the **LiDARDustX Dataset** will be a valuable resource for your research and development efforts.
