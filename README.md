@@ -9,8 +9,8 @@ Thank you for your interest in the **LiDARDustX Dataset**! This dataset is speci
 
 To facilitate access to the dataset, we provide two download options:
 
-- **Google Drive Link**: [Google Drive](https://drive.google.com/file/d/1BSfYe4uLqaeKZzg5SzKNpu34UAzx3Dqn/view?usp=drive_link)
-- **Hugging Face Link**: [Hugging Face](https://huggingface.co/datasets/Weichenfeng/LiDARDustX)
+- **Baidu Drive Link**: [Baidu Drive](https://pan.baidu.com/s/1bXQpJC5bvJ3XTlkO87eWBw) Pass:1nj3
+- **Hugging Face Link**: [Hugging Face](https://huggingface.co/datasets/Weichenfeng/LiDARDustX) 
 
 
 ## Dataset Structure
